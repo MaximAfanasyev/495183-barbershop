@@ -1,0 +1,36 @@
+.index-body {
+    background-image: URL(../img/background-home.png);
+    font-family: "PT Sans Narrow", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #f7f4f1;
+}
+
+.caption-2 {
+    font-family: "PT Sans Narrow", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.caption-3 {
+    font-family: "PT Sans Narrow", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 42px;
+    color: #f7f4f1;
+}
+
+.visual-hidden {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    
+

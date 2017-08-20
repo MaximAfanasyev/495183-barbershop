@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
     <title></title>
 </head>
 
@@ -20,38 +21,41 @@
                 <li><a href="contacts.html">КОНТАКТЫ</a></li>
             </ul>
             <ul class="user-navigation">
+                <img src="img/login.svg" width="16px" height="16px" alt="Барбершоп">
                 <li class="login-link">Вход</li>
             </ul>
         </nav>
     </header>
-    
+
     <main class="container">
         <h1 class="page-title">СРЕДСТВА ДЛЯ УХОДА</h1>
         <ul class="breadcrumbs">
             <li><a href="index.html">ГЛАВНАЯ</a></li>
+            <img src="img/rhomb.svg">
             <li><a href="catalog.html">МАГАЗИН</a></li>
+            <img src="img/rhomb.svg">
             <li><a href="breadcrumbs-current">СРЕДСТВА ДЛЯ УХОДА</a></li>
         </ul>
         <section>
             <h2 class="visual-hidden">Фильтр товаров</h2>
-            <form class="filter" method "get" action="https://echo.htmlacademy.ru">
+            <form class="filter" method="get" action="https://echo.htmlacademy.ru">
                 <fieldset>
                     <legend>ПРОИЗВОДИТЕЛИ:</legend>
                     <ul>
-                        <li class="filter-option"><input class="visual-hidden filter-input filter-input-checkbox" name="Baxte of California" checked>BAXTER OF CALIFORNIA</li>
-                        <li class="filter-option"><input class="visual-hidden filter-input filter-input-checkbox" name="mr natty" checked>MR NATTY</li>
-                        <li class="filter-option"><input class="visual-hidden filter-input filter-input-checkbox" name="suavecito" checked>SUAVECITO</li>
-                        <li class="filter-option"><input class="visual-hidden filter-input filter-input-checkbox" name="malin+goetz" checked>MALIN+GOETZ</li>
-                        <li class="filter-option"><input class="visual-hidden filter-input filter-input-checkbox" name="murray's" checked>MURRAY'S</li>
-                        <li class="filter-option"><input class="visual-hidden filter-input filter-input-checkbox" name="american crew" checked>AMERICAN CREW</li>
+                        <li class="filter-option"><input class="visual-hidden filter-input filter-input-checkbox" type="checkbox" name="Baxte of California" checked>BAXTER OF CALIFORNIA</li>
+                        <li class="filter-option"><input class="visual-hidden filter-input filter-input-checkbox" type="checkbox" name="mr natty" checked>MR NATTY</li>
+                        <li class="filter-option"><input class="visual-hidden filter-input filter-input-checkbox" type="checkbox" name="suavecito" checked>SUAVECITO</li>
+                        <li class="filter-option"><input class="visual-hidden filter-input filter-input-checkbox" type="checkbox" name="malin+goetz" checked>MALIN+GOETZ</li>
+                        <li class="filter-option"><input class="visual-hidden filter-input filter-input-checkbox" type="checkbox" name="murray's" checked>MURRAY'S</li>
+                        <li class="filter-option"><input class="visual-hidden filter-input filter-input-checkbox" type="checkbox" name="american crew" checked>AMERICAN CREW</li>
                     </ul>
                 </fieldset>
                 <fieldset>
                     <legend>ГРУППЫ ТОВАРОВ:</legend>
                     <ul>
-                        <li class="filter-option"><input class="visual-hidden filter-input filter-input-checkbox" name="product-group" value="product-group">БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ</li>
-                        <li class="filter-option"><input class="visual-hidden filter-input filter-input-checkbox" name="product-group" value="hair-care" checked>СРЕДСТВА ДЛЯ УХОДА</li>
-                        <li class="filter-option"><input class="visual-hproduct-groupamerican crew" value="accessories">АКСЕССУАРЫ</li>
+                        <li class="filter-option"><input class="visual-hidden filter-input filter-input-checkbox" type="radio" name="product-group" value="product-group">БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ</li>
+                        <li class="filter-option"><input class="visual-hidden filter-input filter-input-checkbox" type="radio" name="product-group" value="hair-care" checked>СРЕДСТВА ДЛЯ УХОДА</li>
+                        <li class="filter-option"><input class="visual-hproduct-groupamerican crew" type="radio" value="accessories">АКСЕССУАРЫ</li>
                     </ul>
                 </fieldset>
                 <button type="submit" class="filter-button button">ПОКАЗАТЬ</button>
@@ -62,6 +66,7 @@
             <h2 class="visual-hidden">Список средств для ухода</h2>
             <ul class="catalog-list">
                 <li class="catalog-item">
+                    <img src="img/product-1.png">
                     <h3>
                         <a href="catalog-item.html">
                             <span class="catalog-category">Набор для путешествий</span>
@@ -77,6 +82,7 @@
                     <a class="button" href="#">Купить</a>
                 </li>
                 <li class="catalog-item">
+                    <img src="img/product-2.png">
                     <h3>
                         <a href="catalog-item.html">
                             <span class="catalog-category">Увлажняющий кондиционер</span>
@@ -94,6 +100,7 @@
                     </p>
                 </li>
                 <li class="catalog-item">
+                    <img src="img/product-3.png">
                     <h3>
                         <a href="catalog-item.html">
                             <span class="catalog-category">Гель для волос</span>
@@ -111,6 +118,7 @@
                     </p>
                 </li>
                 <li class="catalog-item">
+                    <img src="img/product-4.png">
                     <h3>
                         <a href="catalog-item.html">
                             <span class="catalog-category">Глина для укладки волос</span>
@@ -128,6 +136,7 @@
                     </p>
                 </li>
                 <li class="catalog-item">
+                    <img src="img/product-5.png">
                     <h3>
                         <a href="catalog-item.html">
                             <span class="catalog-category">Гель для волос</span>
@@ -145,6 +154,7 @@
                     </p>
                 </li>
                 <li class="catalog-item">
+                    <img src="img/product-6.png">
                     <h3>
                         <a href="catalog-item.html">
                             <span class="catalog-category">Набор для бритья</span>
@@ -178,9 +188,16 @@
             <div class="footer-social">
                 <b>ДАВАЙТЕ ДРУЖИТЬ!</b>
                 <ul>
-                    <li><a class="social-button" href="#">ВКОНТАКТЕ</a></li>
-                    <li><a class="social-button" href="#">FACEBOOK</a></li>
-                    <li><a class="social-button" href="#">INSTAGRAM</a></li>
+                    <li>
+                        <a class="social-button" href="#"><img src="img/vk.svg" alt="vkontakte"></a>
+                    </li>
+
+                    <li>
+                        <a class="social-button" href="#"><img src="img/facebook.svg" alt="facebok"></a>
+                    </li>
+                    <li>
+                        <a class="social-button" href="#"><img src="img/instagram.svg" alt="vkontakte"></a>
+                    </li>
                 </ul>
             </div>
             <p class="footer-copyright">
@@ -188,7 +205,6 @@
                 <a class="button" href="https://html.academy.ru">HTML ACADEMY</a>
             </p>
         </footer>
-
         <section class="modal modal-login">
             <h2>Личный кабинет</h2>
             <p>Введите свой логин и пароль.</p>
